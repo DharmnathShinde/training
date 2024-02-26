@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style></style>
+</head>
+<body>
+  <pre class="pd">no yet</pre>
+  <pre class="pd">no yet</pre>
+  <pre class="pd">no yet</pre>
+  <script>
+    let obj = { name: "suraj", class: "te comp", clg: "svit" };
+    const pres = document.querySelectorAll(".pd");
+    for (let i = 0; i < pres.length; i++) {
+      pres[i].innerHTML = JSON.stringify(obj, undefined, 2);
+    }
+  </script>
+  
+</body>
+</html>
